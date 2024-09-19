@@ -22,6 +22,9 @@ namespace messingaround
 
 
             WickedDays.Days();
+            Console.WriteLine();
+
+            WickedMath.WickMyMath();
 
             Console.ReadKey();
         }
