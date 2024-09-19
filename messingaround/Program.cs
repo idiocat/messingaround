@@ -18,6 +18,11 @@ namespace messingaround
 
             Console.WriteLine("don't take it so literal!");
             Console.WriteLine(ANSWER);
+            Console.WriteLine();
+
+
+            WickedDays.Days();
+
             Console.ReadKey();
         }
 
