@@ -25,6 +25,10 @@ namespace messingaround
             Console.WriteLine();
 
             WickedMath.WickMyMath();
+            Console.WriteLine();
+
+            InfoGathering.GatherInfo();
+            Console.WriteLine();
 
             Console.ReadKey();
         }

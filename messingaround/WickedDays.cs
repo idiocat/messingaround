@@ -42,7 +42,7 @@ namespace messingaround
             Console.WriteLine(colour.ToString() + SPACE + day.ToString());
         }
 
-        enum DaysOfWeek : byte
+        public enum DaysOfWeek : byte
         {
             Moonday = 1,
             Toothsday,
@@ -53,7 +53,7 @@ namespace messingaround
             Sunday,
         }
 
-        enum Semaphore : int
+        public enum Semaphore : int
         {
             Red = 100,
             Green = 200,
